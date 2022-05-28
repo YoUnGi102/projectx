@@ -1,0 +1,75 @@
+body {
+  background-color: #f0f1f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.MethodItem {
+  background-color: #fff;
+  color: #707070;
+
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MethodItem .category {
+  font-size: 28px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 30px 0;
+}
+
+.MethodItem .description {
+  font-size: 38px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 15px 0;
+}
+
+.CategoryItem {
+  text-align: left;
+  padding: 5px 20px;
+}
+
+.CategoryItem .name {
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.CategoryItem .checkbox {
+  height: 20px;
+  width: 20px;
+}
+
+.CategoryList {
+  padding: 20px;
+}
+
+.Header h1 {
+  text-align: left;
+  font-size: 150px;
+  color: #707070;
+  font-weight: bold;
+}
+
+.Header h2 {
+  text-align: left;
+  font-size: 72px;
+  color: #707070;
+  font-weight: bold;
+}

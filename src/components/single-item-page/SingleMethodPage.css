@@ -1,0 +1,51 @@
+/* /* * {
+  margin: 0;
+} */
+
+.HeaderView {
+  background-color: #22ccae;
+  margin: 0;
+}
+
+.HeaderView a {
+  color: #707070;
+  text-align: center;
+}
+
+.HeaderView .category {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 28px;
+  padding: 20px;
+}
+
+.HeaderView .title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 38px;
+  padding: 20px;
+}
+
+.HeaderView .introduction {
+  color: #ffffff;
+  font-size: 38px;
+  padding: 20px;
+}
+
+.text {
+  color: #707070;
+  font-size: 18px;
+}
+
+.nav-bar-item {
+  font-size: 28x;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-sizing: border-box;
+  padding: 25px 150px;
+  margin: 0 10px;
+}
+
+/* .nav-item:hover {
+  background-color: white;
+} */
